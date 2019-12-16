@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             if (args.Length < 3)
             {
-                throw new ArgumentException("Wrong number of arguments, sorry");
+                throw new ArgumentException("Wrong number of arguments, sorry very much");
             }
 
             var elasticSearchUrl = args[0];
