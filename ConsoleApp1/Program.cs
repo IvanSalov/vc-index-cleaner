@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             if (args.Length < 3)
             {
+                throw new ArgumentException("Wrong number of arguments!");
                 throw new ArgumentException("Wrong number of arguments, sorry very much");
             }
 
