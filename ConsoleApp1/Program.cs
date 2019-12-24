@@ -23,7 +23,7 @@ namespace ConsoleApp1
             var ids = RetrieveIdsFromElasticSearchIndex(elasticSearchUrl, indexName);
             var absentIds = RetrieveAbsentIdsFromDatabase(dbConnectionString, ids);
 
-            Console.WriteLine("Absent ids:");
+            Console.WriteLine("Absent ids are:");
 
             foreach (var id in absentIds)
             {
