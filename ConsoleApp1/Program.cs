@@ -14,6 +14,7 @@ namespace ConsoleApp1
             {
                 throw new ArgumentException("Wrong number of arguments!");
                 throw new ArgumentException("Wrong number of arguments, sorry very much");
+                throw new ArgumentException("Wrong number of arguments, sorry very much");
             }
 
             var elasticSearchUrl = args[0];
